@@ -10,3 +10,17 @@
 int a;
 int b;
 ```
+```javascript
+      this.$http({
+        url: url,
+        method: "POST",
+        data: param, 
+        headers: {
+          "Content-Type": "application/json;charset=UTF-8",
+          "cache-control": "no-cache"
+        }
+      }) 
+      .then(res => { 
+        console.log(res.data) 
+      });
+```
